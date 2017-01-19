@@ -1,9 +1,9 @@
 <?php
 
-$host = 'localhost';
-$db = 'db_bw_normilized_tables';
-$user = 'root';
-$pass = '';
+$host = 'DB_HOST';
+$db = 'DB_NAME';
+$user = 'DB_USER';
+$pass = 'DB_PASS';
 
 // setup the connection
 $conn = mysql_pconnect($host, $user, $pass) or trigger_error(mysql_error(), E_USER_ERROR); 
